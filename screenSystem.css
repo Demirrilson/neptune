@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    
+}
+body{
+    background-color: #06121e;
+    height: 100vh;
+    color: white;
+
+}
+
+.container{
+    /* border: solid 1px white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+}
+
+.nav-bar .exit p{
+    color: white;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+
+.nav-bar ul a{
+    text-decoration: none;
+    
+}
+
+.nav-bar ul li{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.containerBtnAddTanque{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.buttonAddTanque{
+    padding: 10px;
+    background-color: #2d7c7f;
+    border: 1px solid #2d7c7f;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.buttonAddTanque a{
+    text-decoration: none;
+    color: white;
+}
+
+.containerAllTanques{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.tanqueContainer{
+    height: 270px;
+    width: 300px;
+    border: solid 5px white;
+    border-radius: 10px;
+
+}
+
+.tanqueContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tanqueContent h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.imgTanque{
+    margin-top: 40px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.tanqueContent .dados{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.tanqueContent .dados ul{
+    list-style-type: none;
+}
+.tanqueContent .dados ul li p{
+    display: flex;
+    text-align: center;
+
+}
+.tanqueContent .dados ul:nth-child(2) li{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.btn-tanque button{
+    background-color: #2d7c7f;
+    color: white;
+    padding: 10px;
+    border: 1px solid #2d7c7f;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-tanque{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-tanque a{
+    text-decoration: none;
+}

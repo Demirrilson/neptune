@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dadosContent{
+    width: 400px;
+    height: 500px;
+    border: solid 5px rgb(169, 167, 167);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.dadosContent i{
+    margin: 10px 20px;
+    background-color: #2d7c7f;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dadosContent a{
+    text-decoration: none;
+}
+
+.dadosContent .nomeTanque{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dadosAuto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomeMed li{
+    padding: 11px;
+}
+
+
+
+.dadosAuto .medicoes li{
+    border: 1px solid rgb(157, 156, 156);
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+.dadosContent .dadosAuto ul li{
+    list-style-type: none;
+    /* margin: 0 10px; */
+}
+
+.dadosManu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.dadosManu ul{
+    list-style-type: none;
+}
+
+.dadosManu .medicoes li{
+    border: 1px solid rgb(157, 156, 156);
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn-dados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dados button{
+    color: white;
+    width: 100px;
+    background-color: #2d7c7f;
+    border: 1px solid #2d7c7f;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 5px;
+}
